@@ -1,23 +1,16 @@
+// Home.jsx (as you provided, no changes needed for the click handler)
 import React from "react";
 
 function Home() {
   return (
     <div>
+      {/* ... your existing Home component JSX ... */}
       <div className="fixed top-[20px] left-[70px] p-4 z-50">
-        <div
-          className="
-          p-6
-          text-center
-          font-bold
-          text-white
-          text-[150px]
-          tracking-wider
-        "
-        >
+        <div className="p-6 text-center font-bold text-white text-[150px] tracking-wider">
           HELLO
         </div>
       </div>
-
+      {/* ... rest of your Home component ... */}
       <div className="fixed top-[210px] left-[60px] p-4 z-50">
         <div
           className="
@@ -26,7 +19,7 @@ function Home() {
           text-white
           text-[70px]
           tracking-wider
-        
+
         "
         >
           I'm
@@ -50,10 +43,10 @@ function Home() {
 
           <div
             className="
-              
-              bg-blue-600  
-              h-0.5      
-              w-full  
+
+              bg-blue-600
+              h-0.5
+              w-full
               mt-px
           "
           ></div>
@@ -62,7 +55,7 @@ function Home() {
       <div className="fixed top-[470px] left-[80px] w-[290px]">
         <div
           className="
-                
+
                 text-white"
         >
           Products that require Home Delivery like LED TVs, Home Theatres, Air
@@ -94,10 +87,12 @@ function Home() {
         rotate-90
         right-[2px]
         top-[200px]
-        
+
         "
       >
-        <h3 className="text-[20px]">Let's Connect ----<span></span></h3>
+        <h3 className="text-[20px]">
+          Let's Connect ----<span></span>
+        </h3>
       </div>
     </div>
   );
